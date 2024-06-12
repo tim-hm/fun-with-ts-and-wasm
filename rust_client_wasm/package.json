@@ -1,0 +1,11 @@
+{
+  "name": "rust-client-wasm",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "main": "pkg/fun_with_ts_and_wasm.js",
+  "types": "pkg/fun_with_ts_and_wasm.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

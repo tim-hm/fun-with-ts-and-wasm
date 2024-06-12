@@ -1,0 +1,35 @@
+{
+  "name": "fun-with-ts-and-wasm",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "ts/index.ts",
+  "scripts": {
+    "build:watch": "npx webpack --mode development --watch",
+    "build:dev": "npx webpack --mode development",
+    "build:prod": "npx webpack --mode production",
+    "proto:gerate": "",
+    "serve": "webpack serve --mode development"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@tsconfig/node-lts": "^20.1.3",
+    "babel-loader": "^9.1.3",
+    "core-js": "^3.37.1",
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "^3.3.2",
+    "rust_client_wasm": "file:./rust_client_wasm",
+    "typescript": "^5.4.5",
+    "webpack": "^5.92.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
